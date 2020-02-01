@@ -1,0 +1,36 @@
+.register {
+  background: linear-gradient(#21c08b, #AB88FF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+.register__container {
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 60px 68px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 700px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.register__container--form {
+  display: flex;
+  flex-direction: column;
+}
+.register__container--login {
+  display: flex;
+  justify-content: center;
+}
+.register__container--login a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.register__container--login a:hover {
+  text-decoration: underline;
+}
